@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistrationUsingAnnotation", "UserRegistrationUsingAnnotation\UserRegistrationUsingAnnotation.csproj", "{917EBEB1-B1F1-472E-A71C-B324A18C7E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserRegistrationUsingAnnotation", "UserRegistrationUsingAnnotation\UserRegistrationUsingAnnotation.csproj", "{917EBEB1-B1F1-472E-A71C-B324A18C7E54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{B52D0B02-888E-4781-9AE3-BE8C4CD9D38E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{917EBEB1-B1F1-472E-A71C-B324A18C7E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{917EBEB1-B1F1-472E-A71C-B324A18C7E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{917EBEB1-B1F1-472E-A71C-B324A18C7E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52D0B02-888E-4781-9AE3-BE8C4CD9D38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52D0B02-888E-4781-9AE3-BE8C4CD9D38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52D0B02-888E-4781-9AE3-BE8C4CD9D38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52D0B02-888E-4781-9AE3-BE8C4CD9D38E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

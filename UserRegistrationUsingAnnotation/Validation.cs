@@ -4,16 +4,23 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UserRegistrationUsingAnnotation;
 
-namespace UserRegistrationAnnotations
+
+namespace UserRegistrationUsingAnnotation
 {
     public class Validation
     {
-        /// <summary>
-        /// Annoations
-        /// </summary>
+        public string message;
+        public Validation()
+        {
+            Console.WriteLine("Default constructor");
+        }
+        public Validation(string message)
+        {
+            this.message = message;
+        }
         Annotation annotation = new Annotation();
+        //Getting user details
         public void GetInput()
         {
             Console.WriteLine("Enter first name :");
@@ -28,6 +35,10 @@ namespace UserRegistrationAnnotations
             annotation.password = Console.ReadLine();
             TestAnnotationFields(annotation);
 
+        }
+        public void TestMethod()
+        {
+            Console.WriteLine("Validating the user details......");
         }
         public void TestAnnotationFields(Annotation annotation)
         {

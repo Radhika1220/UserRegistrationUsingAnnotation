@@ -3,8 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
+
 namespace UserRegistrationUsingAnnotation
 {
+    /// <summary>
+    /// Annotation class
+    /// </summary>
    public  class Annotation
     {
         [Required(ErrorMessage="{0} is required")]
